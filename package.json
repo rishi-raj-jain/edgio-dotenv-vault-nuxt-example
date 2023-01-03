@@ -1,0 +1,31 @@
+{
+  "name": "edgio-dotenv-vault-nuxt-example",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "format": "prettier --write '**/*' --ignore-unknown"
+  },
+  "dependencies": {
+    "@nuxt/core": "^2.15.8",
+    "dotenv-vault-core": "^0.6.1"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^6.0.5",
+    "@edgio/core": "^6.0.5",
+    "@edgio/devtools": "^6.0.5",
+    "@edgio/nuxt": "^6.0.5",
+    "@edgio/prefetch": "^6.0.5",
+    "@edgio/vue": "^6.0.5",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "prettier": "^2.8.1",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  }
+}
